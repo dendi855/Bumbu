@@ -1,0 +1,267 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  scroll-behavior: smooth;
+}
+
+.body {
+  display: grid;
+  width: 100%;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+/* head */
+
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  font-size: 15px;
+  background: #ff6347;
+  backdrop-filter: blur(10px);
+}
+
+.logoimg {
+  width: 12%;
+  margin-top: -45px;
+}
+
+.btnheader {
+  display: flex;
+  margin-top: -9.2%;
+  margin-left: 72%;
+  text-align: center;
+}
+
+.katalog {
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  padding: 10px 0px;
+  cursor: pointer;
+  margin: 10px;
+  width: 100px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.about {
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  padding: 10px 0px;
+  cursor: pointer;
+  margin: 10px;
+  width: 100px;
+  overflow: hidden;
+  background: transparent;
+  color: #4affde;
+}
+
+.kontak {
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  padding: 10px 0px;
+  cursor: pointer;
+  margin: 10px;
+  width: 100px;
+  overflow: hidden;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Body */
+
+.sec1 {
+  justify-content: center;
+}
+
+.g1 {
+  margin-top: 150px;
+  width: 1200px;
+  height: 650px;
+  margin-left: 120px;
+}
+
+.g2 {
+  margin-top: 50px;
+  width: 1200px;
+  height: 650px;
+  margin-left: 120px;
+}
+
+.g3 {
+  margin-top: 50px;
+  width: 1200px;
+  height: 650px;
+  margin-left: 120px;
+}
+
+.g4 {
+  margin-top: 50px;
+  width: 1200px;
+  height: 650px;
+  margin-left: 120px;
+}
+
+.g5 {
+  margin-top: 50px;
+  width: 1200px;
+  height: 650px;
+  margin-left: 120px;
+}
+
+.g6 {
+  margin-top: 50px;
+  width: 1200px;
+  height: 650px;
+  margin-left: 120px;
+}
+
+.sec2 {
+  height: 400px;
+  margin-top: 150px;
+  background: #ff6347;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* footer */
+
+.footerimg {
+  width: 25%;
+  margin-left: 300px;
+  margin-top: -50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.IGimg {
+  width: 50px;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.WAimg {
+  width: 50px;
+  margin-left: 250px;
+}
+
+.Wafont {
+  margin-left: 580px;
+  margin-top: -25px;
+  color: white;
+}
+
+.IGfont {
+  margin-left: 270px;
+  color: white;
+}
+
+.barcode {
+  width: 15%;
+  margin-left: 900px;
+  margin-top: -200px;
+}
+
+.container {
+  margin-top: -80px;
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+  .nav-links li {
+    margin-right: 0;
+  }
+
+  .g1,
+  .g2,
+  .g3,
+  .g4,
+  .g5,
+  .g6 {
+    width: 70%;
+    height: 13%;
+  }
+
+  .katalog {
+    width: 100%;
+    height: 50%;
+    margin-left: -500px;
+  }
+
+  .about {
+    width: 100%;
+    height: 50%;
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+
+  .kontak {
+    width: 100%;
+    height: 50%;
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+
+  .katalog,
+  .about,
+  .kontak {
+    margin-top: -10px;
+  }
+
+  header {
+    width: 100%;
+    height: 120px;
+  }
+
+  .logoimg {
+    margin-left: 255px;
+    margin-top: -70px;
+    width: 200px;
+  }
+
+  .sec1 {
+    max-height: 430vh;
+  }
+
+  .IGimg,
+  .Waimg {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .Wafont {
+    margin-left: 480px;
+    margin-top: -25px;
+  }
+
+  .IGfont {
+    margin-left: 180px;
+    margin-top: -40px;
+  }
+
+  .footerimg {
+    margin-left: 280px;
+  }
+
+  .barcode {
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 270px;
+  }
+}

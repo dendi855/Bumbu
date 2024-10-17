@@ -1,0 +1,115 @@
+.pkontak {
+  margin-top: 200px;
+  margin-left: 250px;
+  width: 900px;
+  height: 300px;
+  text-align: center;
+  align-text: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background: #ff6347;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.phonenum {
+  font-size: 40px;
+  color: white;
+  margin-left: 580px;
+  margin-top: -200px;
+  padding-bottom: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+  .nav-links li {
+    margin-right: 0;
+  }
+
+  .katalog {
+    width: 100%;
+    height: 50%;
+    margin-left: -500px;
+  }
+
+  .about {
+    width: 100%;
+    height: 50%;
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+
+  .kontak {
+    width: 100%;
+    height: 50%;
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+
+  .katalog,
+  .about,
+  .kontak {
+    margin-top: -10px;
+  }
+
+  header {
+    width: 100%;
+    height: 120px;
+  }
+
+  .logoimg {
+    margin-left: 255px;
+    margin-top: -70px;
+    width: 200px;
+  }
+
+  .IGimg,
+  .Waimg {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .Wafont {
+    margin-left: 480px;
+    margin-top: -25px;
+  }
+
+  .IGfont {
+    margin-left: 180px;
+    margin-top: -40px;
+  }
+
+  .footerimg {
+    margin-left: 280px;
+  }
+
+  .barcode {
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 270px;
+  }
+
+  .sec1 {
+    width: 200px;
+  }
+
+  .pkontak {
+    width: 500px;
+    justify-content: center;
+    margin-left: 80px;
+    font-size: 20px;
+  }
+
+  .phonenum {
+    font-size: 40px;
+    color: white;
+    margin-left: 220px;
+    margin-top: -200px;
+  }
+}
